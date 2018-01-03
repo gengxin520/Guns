@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Implementation-Title: bvisioncloud
 Implementation-Version: 1.0
 Built-By: sun
-Implementation-Vendor-Id: com.wedo
+Implementation-Vendor-Id: com.stylefeng
 Build-Jdk: 1.8.0_31
 Implementation-URL: http://projects.spring.io/spring-boot/bvision-clou
  d/
