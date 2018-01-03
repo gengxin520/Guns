@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.stylefeng.guns.GunsRestApplicationTests" time="0.016" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.31-b07"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sun/repertory/wedo/guns/bvision-rest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sun/repertory/wedo/guns/bvision-rest"/>
+    <property name="java.runtime.version" value="1.8.0_31-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/yv/d5wcgw6j58n3n4pd5rgbb9qh0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/sun/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2028537068118161152.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.2"/>
+    <property name="user.home" value="/Users/sun"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sun"/>
+    <property name="java.class.path" value="/Users/sun/apache-maven-3.5.2/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s /Users/sun/apache-maven-3.5.2/conf/settings.xml install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="user.language.format" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_31"/>
+    <property name="java.ext.dirs" value="/Users/sun/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/sun/apache-maven-3.5.2"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="com.stylefeng.guns.GunsRestApplicationTests" time="0.016">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:70)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:202)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:137)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:82)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[14:19:13.818 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.stylefeng.guns.GunsRestApplicationTests]
+14:19:13.828 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:19:13.842 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:19:13.867 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.stylefeng.guns.GunsRestApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:19:13.885 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stylefeng.guns.GunsRestApplicationTests], using SpringBootContextLoader
+14:19:13.890 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.stylefeng.guns.GunsRestApplicationTests]: class path resource [com/stylefeng/guns/GunsRestApplicationTests-context.xml] does not exist
+14:19:13.891 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.stylefeng.guns.GunsRestApplicationTests]: class path resource [com/stylefeng/guns/GunsRestApplicationTestsContext.groovy] does not exist
+14:19:13.891 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.stylefeng.guns.GunsRestApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:19:13.892 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stylefeng.guns.GunsRestApplicationTests]: GunsRestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:19:13.952 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.stylefeng.guns.GunsRestApplicationTests]
+14:19:13.977 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:19:13.978 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:19:13.979 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:19:14.000 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/stylefeng/guns/] to resources [URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns/], URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/guns/], URL [jar:file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar!/com/stylefeng/guns/]]
+14:19:14.001 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns]
+14:19:14.003 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns/*.class]
+14:19:14.009 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/guns]
+14:19:14.010 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/guns] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/guns/*.class]
+14:19:14.011 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar]
+14:19:14.017 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/stylefeng/guns/*.class] to resources [file [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns/GunsRestApplicationTests.class]]
+14:19:14.037 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/stylefeng/] to resources [URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/], URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/], URL [jar:file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar!/com/stylefeng/]]
+14:19:14.037 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng]
+14:19:14.037 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/*.class]
+14:19:14.037 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng]
+14:19:14.038 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/*.class]
+14:19:14.038 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar]
+14:19:14.042 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/stylefeng/*.class] to resources []
+14:19:14.045 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [jar:file:/System/Library/Java/Extensions/MRJToolkit.jar!/com/], URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/], URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/], URL [jar:file:/Users/sun/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/baomidou/mybatisplus-spring-boot-starter/1.0.4/mybatisplus-spring-boot-starter-1.0.4.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/baomidou/mybatis-plus/2.1.0/mybatis-plus-2.1.0.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/alibaba/druid/1.0.28/druid-1.0.28.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar!/com/]]
+14:19:14.045 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/System/Library/Java/Extensions/MRJToolkit.jar]
+14:19:14.049 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com]
+14:19:14.049 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/*.class]
+14:19:14.050 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com]
+14:19:14.050 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/*.class]
+14:19:14.050 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar]
+14:19:14.053 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar]
+14:19:14.081 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar]
+14:19:14.083 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar]
+14:19:14.086 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+14:19:14.090 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar]
+14:19:14.092 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/baomidou/mybatisplus-spring-boot-starter/1.0.4/mybatisplus-spring-boot-starter-1.0.4.jar]
+14:19:14.093 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/baomidou/mybatis-plus/2.1.0/mybatis-plus-2.1.0.jar]
+14:19:14.097 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar]
+14:19:14.104 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/alibaba/druid/1.0.28/druid-1.0.28.jar]
+14:19:14.129 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar]
+14:19:14.133 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+14:19:14.142 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.stylefeng.guns.GunsRestApplicationTests]
+14:19:14.143 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:19:14.143 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:19:14.144 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.stylefeng.guns.GunsRestApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:19:14.145 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stylefeng.guns.GunsRestApplicationTests], using SpringBootContextLoader
+14:19:14.146 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.stylefeng.guns.GunsRestApplicationTests]: class path resource [com/stylefeng/guns/GunsRestApplicationTests-context.xml] does not exist
+14:19:14.147 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.stylefeng.guns.GunsRestApplicationTests]: class path resource [com/stylefeng/guns/GunsRestApplicationTestsContext.groovy] does not exist
+14:19:14.147 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.stylefeng.guns.GunsRestApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:19:14.147 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stylefeng.guns.GunsRestApplicationTests]: GunsRestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:19:14.168 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.stylefeng.guns.GunsRestApplicationTests]
+14:19:14.168 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:19:14.168 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:19:14.169 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:19:14.169 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/stylefeng/guns/] to resources [URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns/], URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/guns/], URL [jar:file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar!/com/stylefeng/guns/]]
+14:19:14.170 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns]
+14:19:14.170 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns/*.class]
+14:19:14.171 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/guns]
+14:19:14.171 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/guns] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/guns/*.class]
+14:19:14.173 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar]
+14:19:14.179 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/stylefeng/guns/*.class] to resources [file [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/guns/GunsRestApplicationTests.class]]
+14:19:14.182 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/stylefeng/] to resources [URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/], URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/], URL [jar:file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar!/com/stylefeng/]]
+14:19:14.182 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng]
+14:19:14.183 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/stylefeng/*.class]
+14:19:14.183 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng]
+14:19:14.184 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/stylefeng/*.class]
+14:19:14.185 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar]
+14:19:14.187 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/stylefeng/*.class] to resources []
+14:19:14.189 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/] to resources [URL [jar:file:/System/Library/Java/Extensions/MRJToolkit.jar!/com/], URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/], URL [file:/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/], URL [jar:file:/Users/sun/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/baomidou/mybatisplus-spring-boot-starter/1.0.4/mybatisplus-spring-boot-starter-1.0.4.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/baomidou/mybatis-plus/2.1.0/mybatis-plus-2.1.0.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/alibaba/druid/1.0.28/druid-1.0.28.jar!/com/], URL [jar:file:/Users/sun/.m2/repository/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar!/com/]]
+14:19:14.189 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/System/Library/Java/Extensions/MRJToolkit.jar]
+14:19:14.190 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com]
+14:19:14.190 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/test-classes/com/*.class]
+14:19:14.191 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com]
+14:19:14.191 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com] for files matching pattern [/Users/sun/repertory/wedo/guns/bvision-rest/target/classes/com/*.class]
+14:19:14.192 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar]
+14:19:14.193 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.8/jackson-databind-2.8.8.jar]
+14:19:14.203 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar]
+14:19:14.205 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.8/jackson-core-2.8.8.jar]
+14:19:14.209 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/jayway/jsonpath/json-path/2.2.0/json-path-2.2.0.jar]
+14:19:14.216 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/wedo/bvision-core/1.0.0-SNAPSHOT/bvision-core-1.0.0-SNAPSHOT.jar]
+14:19:14.218 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/baomidou/mybatisplus-spring-boot-starter/1.0.4/mybatisplus-spring-boot-starter-1.0.4.jar]
+14:19:14.219 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/baomidou/mybatis-plus/2.1.0/mybatis-plus-2.1.0.jar]
+14:19:14.222 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar]
+14:19:14.227 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/alibaba/druid/1.0.28/druid-1.0.28.jar]
+14:19:14.247 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in jar file [file:/Users/sun/.m2/repository/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar]
+14:19:14.251 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/*.class] to resources []
+]]></system-out>
+  </testcase>
+</testsuite>
